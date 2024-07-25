@@ -1,0 +1,121 @@
+/* styles.css */
+h1 {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  color: #333;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+h1 .subheader {
+  font-size: 0.8em;
+  font-weight: bold;
+  color: #333;
+}
+
+h1 .datetime-header {
+  font-size: 0.7em;
+  font-weight: bold;
+  color: #333;
+}
+
+h1 .instruction-header {
+  font-size: 0.8em;
+  font-weight: bold;
+  color: #333;
+}
+
+.session {
+  border: none;
+  font-weight: bold;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 20px;
+}
+
+.session-header {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 10px;
+}
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: max-content;
+  text-align: center;
+}
+
+td {
+  padding: 5px;
+  border: 1px solid #ddd;
+}
+
+.button {
+  -webkit-background-color: white;
+  /* For older Android browsers */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0f0f0;
+  color: #ec610e;
+  width: calc(100%);
+  margin: 5px 0;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.invisible {
+  opacity: 0;
+}
+
+.member-name {
+  font-weight: bold;
+  max-width: 160px;
+  /* Approximately 20 characters at 20px font size */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.status {
+  padding: 3px 6px;
+  border-radius: 3px;
+  font-size: 14px;
+  max-width: 80px;
+  /* Approximately 10 characters at 14px font size */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.booked {
+  background-color: white;
+  color: #94bf1f;
+}
+
+.waitlisted {
+  background-color: white;
+  color: #94bf1f;
+}
+
+.checked-in {
+  background-color: #94bf1f;
+  color: white;
+}
